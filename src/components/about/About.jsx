@@ -30,7 +30,7 @@ const About = () => {
               <div className="a-skill-texts">
                 <h4 className="a-skill-title">مهارت های من</h4>
                 <p className="a-skill-desc">
-                  HTML|CSS|JS|ECMAscript|React.js|Context API|React router|Redux|Redux thunk
+                  ...HTML|CSS|JS|ECMAscript|React.js|Context API|Axios|React router|Redux|Redux thunk|
                 </p>
               </div>
             </div>

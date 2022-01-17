@@ -1,5 +1,6 @@
 import "./contact.css";
 import Phone from "../../img/phone.png";
+import Linkedin from "../../img/linkedin.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import { useRef , useState} from "react";
@@ -43,6 +44,14 @@ const Contact = () => {
                       </div>
                       <div className="c-info-item">
                          <img
+                           src={Linkedin}
+                           alt=""
+                           className="c-icon"
+                         />
+                         aysan bidari
+                      </div>
+                      <div className="c-info-item">
+                         <img
                            src={Address}
                            alt=""
                            className="c-icon"
@@ -54,7 +63,7 @@ const Contact = () => {
               <div className="c-left">
               <p className="c-desc">
             <b>  با من در ارتباط باش :</b> 
-            خواسته ی خودتو به من بگو
+            
             
             
           </p>
